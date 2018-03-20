@@ -23,7 +23,7 @@
     [_linkSwitch setView:self.view];
     NSString *vc_pid = @"xxxx";
     NSString *vcptn  = @"yyyy";
-    [_linkSwitch setLSPramWithPid:vc_pid setPtn:vcptn setTargetURLList:nil];
+    [_linkSwitch setLSParamsWithPid:vc_pid setPtn:vcptn setTargetURLList:nil];
 }
 
 -(IBAction)linkSwitchAction:(id)sender{
@@ -37,3 +37,4 @@
 
 
 @end
+

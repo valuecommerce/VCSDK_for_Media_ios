@@ -21,7 +21,7 @@
     // 1.setLSParamを呼び出します。
     NSString *vc_pid = @"xxxx";
     NSString *vcptn  = @"yyyy";
-    [_textView setLSPramWithPid:vc_pid setPtn:vcptn];
+    [_textView setLSParamsWithPid:vc_pid setPtn:vcptn];
     // 2.TextViewの文字をLinkに変更します。
     _textView.dataDetectorTypes = UIDataDetectorTypeLink;
     // 3.UITextViewDelegateを実装していない方はこちらをお使いください。
@@ -47,3 +47,4 @@
 }
 
 @end
+

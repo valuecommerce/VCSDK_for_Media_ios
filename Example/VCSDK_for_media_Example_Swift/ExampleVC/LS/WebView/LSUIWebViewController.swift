@@ -9,7 +9,7 @@
 import UIKit
 
 class LSUIWebViewController: UIViewController {
-
+    
     @IBOutlet var webView:ADVCUIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,13 +22,15 @@ class LSUIWebViewController: UIViewController {
         let targetURLList = ["xxxdomain.co.jp/yyy", "zzzdomain.com"]
         webView.setTargetURLList(targetURLList)
         
-        // 1.setLSParamを呼び出します。
+        // 2.setLSParamを呼び出します。
         let vc_pid = "xxxx"
         let vcptn  = "yyyy"
-        webView.setLSParamsWithPinId(vc_pid,ptn:vcptn)
+        webView.setLSParamsWithPid(vc_pid,ptn:vcptn)
+        webView.setView(self.view)
         
-        // 2.ADVCWebViewのsetDelegateを呼び出します。
+        // 3.ADVCWebViewのsetDelegateを呼び出します。
         webView.setDelegate()
     }
-
+    
 }
+

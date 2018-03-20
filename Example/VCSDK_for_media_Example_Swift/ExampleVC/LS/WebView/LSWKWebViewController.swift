@@ -9,7 +9,7 @@
 import UIKit
 
 class LSWKWebViewController: UIViewController {
-
+    
     var webView:ADVCWKWebView = ADVCWKWebView()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,7 +70,8 @@ class LSWKWebViewController: UIViewController {
         // 1.setLSParamを呼び出します。
         let vc_pid = "xxxx"
         let vcptn  = "yyyy"
-        webView.setLSParamsWithPinId(vc_pid,ptn:vcptn)
+        webView.setLSParamsWithPid(vc_pid,ptn:vcptn)
+        webView.setView(self.view)
         // 2.ADVCWebViewのsetDelegateを呼び出します。
         webView.setDelegate()
         
@@ -84,5 +85,6 @@ class LSWKWebViewController: UIViewController {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!){
         self.webView.didFinishNavigation()
     }
-
+    
 }
+

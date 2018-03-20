@@ -60,7 +60,7 @@
     // 1.setLSParamを呼び出します。
     NSString *vc_pid = @"xxxx";
     NSString *vcptn  = @"yyyy";
-    [self.webView setLSParamsWithPinId:vc_pid ptn:vcptn];//リンクスイッチ
+    [self.webView setLSParamsWithPid:vc_pid ptn:vcptn];//リンクスイッチ
     // 2.ADVCWebViewのsetDelegateを呼び出します。
     [self.webView setDelegate];
     // 3.ViewControllerを渡してください。
@@ -71,7 +71,7 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     // リクエストを投げる
     [self.webView loadRequest:request];
-   
+    
 }
 
 #pragma mark WKWebView Delegate
@@ -86,3 +86,4 @@
 }
 
 @end
+

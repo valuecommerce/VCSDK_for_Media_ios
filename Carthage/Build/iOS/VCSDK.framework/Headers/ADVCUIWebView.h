@@ -13,19 +13,29 @@
 //広告を載せるURLのリストをいれてください。
 -(void)setTargetURLList:(NSArray*)urlList;
 -(void)setView:(UIView*)view;
-//ハイライトリンクのpId
--(void)setHLParamsWithPinId:(NSString*)pinId;
-//ハイライトリンクのpIdとptn
--(void)setHLParamsWithPinId:(NSString*)pinId ptn:(NSString*)ptn;
-//ハイライトリンクのpIdとカテゴリー
--(void)setHLParamsWithPinId:(NSString*)pinId categoryId:(NSString*)categoryId;
-//ハイライトリンクのpIdとカテゴリー ptn
--(void)setHLParamsWithPinId:(NSString*)pinId categoryId:(NSString*)categoryId ptn:(NSString*)ptn;
+//HLのpId
+-(void)setHLParamsWithPid:(NSString*)pid;
+//HLのpIdとptn
+-(void)setHLParamsWithPid:(NSString*)pid ptn:(NSString*)ptn;
+//HLのpIdとカテゴリー
+-(void)setHLParamsWithPid:(NSString*)pid categoryId:(NSString*)categoryId;
+//HLのpIdとカテゴリー ptn
+-(void)setHLParamsWithPid:(NSString*)pid categoryId:(NSString*)categoryId ptn:(NSString*)ptn;
 
 //リンクスイッチのpId
--(void)setLSParamsWithPinId:(NSString*)pinId;
+-(void)setLSParamsWithPid:(NSString*)pid;
 //リンクスイッチのpIdとptn
--(void)setLSParamsWithPinId:(NSString*)pinId ptn:(NSString*)ptn;
+-(void)setLSParamsWithPid:(NSString*)pid ptn:(NSString*)ptn;
+
+-(void)setHLParamsWithPinId:(NSString*)PidId categoryId:(NSString*)categoryId __attribute__( (deprecated("Unsupported", "setHLParamsWithPid")) ) ;
+-(void)setHLParamsWithPinId:(NSString*)PidId ptn:(NSString*)ptn __attribute__( (deprecated("Unsupported", "setHLParamsWithPid")) ) ;
+-(void)setHLParamsWithPinId:(NSString*)PidId categoryId:(NSString*)categoryId ptn:(NSString*)ptn __attribute__( (deprecated("Unsupported", "setHLParamsWithPid")) ) ;
+
+-(void)setHLParamsWithPinId:(NSString*)PidId __attribute__( (deprecated("Unsupported", "setHLParamsWithPid")) ) ;
+
+-(void)setLSParamsWithPinId:(NSString*)PidId __attribute__( (deprecated("Unsupported", "setLSParamsWithPid")) );
+
+-(void)setLSParamsWithPinId:(NSString*)PidId ptn:(NSString*)ptn __attribute__( (deprecated("Unsupported", "setLSParamsWithPid")) );
 
 //リンクスイッチを利用する方でWKWebViewのUINavigationDelegateをつなげていない方はこちらを使用してください。
 -(void)setDelegate;

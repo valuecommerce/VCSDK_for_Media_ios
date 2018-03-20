@@ -12,7 +12,10 @@
 //インスタンスをシェアして、無駄な通信をしないよ
 + (instancetype)sharedManager;
 //リンクスイッチ
--(void)setLSPramWithPid:(NSString*)pid setPtn:(NSString*)ptn setTargetURLList:(NSArray*)targetURLList;
+-(void)setLSParamsWithPid:(NSString*)pid setPtn:(NSString*)ptn;
+-(void)setLSParamsWithPid:(NSString*)pid setPtn:(NSString*)ptn setTargetURLList:(NSArray*)targetURLList;
+-(void)setLSPramWithPid:(NSString*)pid setPtn:(NSString*)ptn setTargetURLList:(NSArray*)targetURLList __attribute__( (deprecated("Unsupported", "setLSParamsWithPid")) );
+-(void)setLSPramWithPid:(NSString*)pid setPtn:(NSString*)ptn __attribute__( (deprecated("Unsupported", "setLSParamsWithPid")) );
 //リンクスイッチ　ネイティブ
 -(NSURL*)urlChanger:(NSURL*)url;
 //URLをチェンジしたかどうかを返す。

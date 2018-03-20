@@ -22,18 +22,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    // 1.setTargetURLListを呼び出します。
-    NSArray *targetURLList = @[@"xxx.yyy.com", @"xxx.yyy.co.jp"];
-    [self.webView setTargetURLList:targetURLList];
-    
-     // 2.setLSParamを呼び出します。
+    // 1.setLSParamを呼び出します。
     NSString *vc_pid = @"xxxx";
     NSString *vcptn  = @"yyyy";
-    [self.webView setLSParamsWithPinId:vc_pid ptn:vcptn];//リンクスイッチ
-    // 3.ADVCWebViewのsetDelegateを呼び出します。
+    [self.webView setLSParamsWithPid:vc_pid ptn:vcptn];//リンクスイッチ
+    // 2.ADVCWebViewのsetDelegateを呼び出します。
     [self.webView setDelegate];
-    // 4.ViewControllerを渡してください。
+    // 3.ViewControllerを渡してください。
     [self.webView setView:self.view];
     
     // URLを指定
@@ -56,3 +51,4 @@
 }
 
 @end
+

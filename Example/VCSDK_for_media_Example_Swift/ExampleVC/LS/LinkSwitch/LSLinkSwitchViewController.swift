@@ -9,7 +9,7 @@
 import UIKit
 
 class LSLinkSwitchViewController: UIViewController {
-
+    
     var linkSwitch:ADVCLinkSwitch = ADVCLinkSwitch()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +17,7 @@ class LSLinkSwitchViewController: UIViewController {
         let vc_pid = "xxxx"
         let vcptn  = "yyyy"
         linkSwitch.setView(self.view)
-        linkSwitch.setLSPramWithPid(vc_pid, setPtn: vcptn ,setTargetURLList:nil)
+        linkSwitch.setLSParamsWithPid(vc_pid, setPtn: vcptn ,setTargetURLList:nil)
     }
     
     @IBAction func LinkSwitch(sender:AnyObject) {
@@ -31,3 +31,4 @@ class LSLinkSwitchViewController: UIViewController {
         }
     }
 }
+
