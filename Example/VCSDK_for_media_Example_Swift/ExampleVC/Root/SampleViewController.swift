@@ -26,23 +26,12 @@ class SampleViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        setUpHeaderLabel()
+        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func setUpHeaderLabel()
-    {
-        let headerLabel = UILabel(frame:CGRect(x: 0, y: 0, width: view.frame.width, height: 22))
-        headerLabel.text = "1.0.0"
-        headerLabel.textAlignment = .center
-        headerLabel.backgroundColor = UIColor.black
-        headerLabel.textColor = UIColor.white
-        headerLabel.font = UIFont.systemFont(ofSize: 12)
-        (self.view as! UITableView).tableHeaderView = headerLabel
     }
     
     // MARK: - Table View

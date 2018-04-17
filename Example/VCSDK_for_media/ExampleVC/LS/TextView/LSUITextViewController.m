@@ -7,7 +7,7 @@
 //
 
 #import "LSUITextViewController.h"
-#import <VCSDK/ADVCTextView.h>
+#import <VCSDK_for_Media_iOS/ADVCTextView.h>
 
 @interface LSUITextViewController ()
 @property (nonatomic,weak)  IBOutlet ADVCTextView *textView;
@@ -47,4 +47,3 @@
 }
 
 @end
-

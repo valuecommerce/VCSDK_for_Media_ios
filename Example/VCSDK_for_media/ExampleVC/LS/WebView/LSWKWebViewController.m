@@ -7,7 +7,7 @@
 //
 
 #import "LSWKWebViewController.h"
-#import <VCSDK/ADVCWKWebView.h>
+#import <VCSDK_for_Media_iOS/ADVCWKWebView.h>
 
 @interface LSWKWebViewController ()<WKNavigationDelegate, WKUIDelegate>
 @property (nonatomic,strong)  ADVCWKWebView *webView;
@@ -71,7 +71,7 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     // リクエストを投げる
     [self.webView loadRequest:request];
-    
+   
 }
 
 #pragma mark WKWebView Delegate
@@ -86,4 +86,3 @@
 }
 
 @end
-

@@ -39,20 +39,7 @@ static NSString *kViewControllerClassNameKey = @"viewControllerClassName";
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
     temporaryBarButtonItem.title = @"Back";
     self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
-    
-    [self setUpHeaderLabel];
-    
-}
 
-- (void)setUpHeaderLabel
-{
-    UILabel *headerLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 22)];
-    headerLabel.text = @"1.00";
-    headerLabel.textAlignment = NSTextAlignmentCenter;
-    headerLabel.backgroundColor = [UIColor blackColor];
-    headerLabel.textColor = [UIColor whiteColor];
-    headerLabel.font = [UIFont systemFontOfSize:12];
-    ((UITableView*)self.view).tableHeaderView = headerLabel;
 }
 
 - (void)viewWillAppear:(BOOL)animated

@@ -1,0 +1,6 @@
+framework module VCSDK_for_Media_iOS {
+  umbrella header "VCSDK_for_Media_iOS.h"
+
+  export *
+  module * { export * }
+}

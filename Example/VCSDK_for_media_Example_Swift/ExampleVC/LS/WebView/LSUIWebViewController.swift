@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import VCSDK_for_Media_iOS
 
 class LSUIWebViewController: UIViewController {
-    
+
     @IBOutlet var webView:ADVCUIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +32,5 @@ class LSUIWebViewController: UIViewController {
         // 3.ADVCWebViewのsetDelegateを呼び出します。
         webView.setDelegate()
     }
-    
-}
 
+}

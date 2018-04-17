@@ -7,7 +7,7 @@
 //
 
 #import "LSLinkSwitchViewController.h"
-#import <VCSDK/ADVCLinkSwitch.h>
+#import <VCSDK_for_Media_iOS/VCSDK_for_Media_iOS.h>
 
 @interface LSLinkSwitchViewController ()
 @property (nonatomic,strong) ADVCLinkSwitch *linkSwitch;
@@ -37,4 +37,3 @@
 
 
 @end
-

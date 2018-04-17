@@ -7,7 +7,7 @@
 //
 
 #import "LSUIWebViewController.h"
-#import <VCSDK/ADVCUIWebView.h>
+#import <VCSDK_for_Media_iOS/ADVCUIWebView.h>
 @interface LSUIWebViewController ()<UIWebViewDelegate>
 @property (nonatomic, weak) IBOutlet ADVCUIWebView *webView;
 @end
@@ -51,4 +51,3 @@
 }
 
 @end
-

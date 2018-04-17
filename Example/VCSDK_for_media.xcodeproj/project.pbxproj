@@ -457,7 +457,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				ED3FF52091BC2F58CE4D1552 /* [CP] Embed Pods Frameworks */,
-				DE9C69CE947D472B201A05B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,8 +475,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				578AAFD450FA78B36368D432 /* [CP] Embed Pods Frameworks */,
-				58A32BF96E73F888030B7D9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -498,7 +495,6 @@
 				BBB7B558202867A2004F7931 /* Frameworks */,
 				BBB7B559202867A2004F7931 /* Resources */,
 				EE056783BB3436C4F288A015 /* [CP] Embed Pods Frameworks */,
-				D3451CF5020E6E3D0EC6DA83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -614,36 +610,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		578AAFD450FA78B36368D432 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Tests/Pods-VCSDK_for_media_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58A32BF96E73F888030B7D9B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Tests/Pods-VCSDK_for_media_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9344C89741D08DDDB0DD8848 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -680,36 +646,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3451CF5020E6E3D0EC6DA83 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DE9C69CE947D472B201A05B7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		ED3FF52091BC2F58CE4D1552 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,11 +653,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-frameworks.sh",
-				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK.framework",
+				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK_for_Media_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VCSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VCSDK_for_Media_iOS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -735,11 +671,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-frameworks.sh",
-				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK.framework",
+				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK_for_Media_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VCSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VCSDK_for_Media_iOS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

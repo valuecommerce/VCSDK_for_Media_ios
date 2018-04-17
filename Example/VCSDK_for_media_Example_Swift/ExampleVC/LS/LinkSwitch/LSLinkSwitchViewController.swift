@@ -7,9 +7,9 @@
 //
 
 import UIKit
-
+import VCSDK_for_Media_iOS
 class LSLinkSwitchViewController: UIViewController {
-    
+
     var linkSwitch:ADVCLinkSwitch = ADVCLinkSwitch()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,4 +31,3 @@ class LSLinkSwitchViewController: UIViewController {
         }
     }
 }
-

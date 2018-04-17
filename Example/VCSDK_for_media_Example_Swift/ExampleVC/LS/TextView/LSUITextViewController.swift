@@ -7,27 +7,23 @@
 //
 
 import UIKit
+import VCSDK_for_Media_iOS
+class LSUITextViewController: UIViewController {
 
-class LSLinkSwitchViewController: UIViewController {
-    
-    var linkSwitch:ADVCLinkSwitch = ADVCLinkSwitch()
+    @IBOutlet var textView:ADVCTextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // 1.setLSParamを呼び出します。
         let vc_pid = "xxxx"
         let vcptn  = "yyyy"
-        linkSwitch.setView(self.view)
-        linkSwitch.setLSParamsWithPid(vc_pid, setPtn: vcptn ,setTargetURLList:nil)
-    }
-    
-    @IBAction func LinkSwitch(sender:AnyObject) {
+        textView.setLSParamsWithPid(vc_pid, setPtn: vcptn)
+        textView.setView(self.view)
         
-        var url = URL(string: "Your site URL")
-        url = linkSwitch.urlChanger(url)
-        if #available(iOS 10.0, *) {
-            UIApplication.shared.open(url!)
-        } else {
-            UIApplication.shared.openURL(url!)
-        }
+        // 2.TextViewの文字をLinkに変更します。
+        textView.dataDetectorTypes = UIDataDetectorTypes.link
+        
+        // 3.UITextViewDelegateを実装していない方はこちらをお使いください。
+        textView.setTextViewDelegate()
     }
+
 }

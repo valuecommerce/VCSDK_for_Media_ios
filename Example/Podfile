@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'VCSDK_for_media_Example_Objective-C' do
   pod 'VCSDK_for_media', :path => '../'
-
+#pod 'VCSDK_for_media'
   target 'VCSDK_for_media_Tests' do
     inherit! :search_paths
   end
@@ -11,5 +11,6 @@ end
 
 target 'VCSDK_for_media_Example_Swift' do
     pod 'VCSDK_for_media', :path => '../'
-    
+#pod 'VCSDK_for_media'
+
 end

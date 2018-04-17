@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import VCSDK_for_Media_iOS
 
 class LSWKWebViewController: UIViewController {
-    
+
     var webView:ADVCWKWebView = ADVCWKWebView()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,6 +86,5 @@ class LSWKWebViewController: UIViewController {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!){
         self.webView.didFinishNavigation()
     }
-    
-}
 
+}
