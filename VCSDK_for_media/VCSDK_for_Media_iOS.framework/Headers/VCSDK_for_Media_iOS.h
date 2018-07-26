@@ -12,7 +12,7 @@
 #import <VCSDK_for_Media_iOS/ADVCUIWebView.h>
 #import <VCSDK_for_Media_iOS/ADVCWKWebView.h>
 
-//! Project version number for VCSDVCSDK_for_Media_iOSK.
+//! Project version number for VCSDVCSDK_for_Media_iOS.
 FOUNDATION_EXPORT double VCSDK_for_Media_iOSVersionNumber;
 
 //! Project version string for VCSDK_for_Media_iOS.
