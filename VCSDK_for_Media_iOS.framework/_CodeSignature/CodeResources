@@ -6,15 +6,15 @@
 	<dict>
 		<key>ADSelectLinkTableViewCell.nib</key>
 		<data>
-		JTaSBAOw+JMdJeq6zV5VtslMrls=
+		zU8924tB5JHGfi40wxCqQvcTiQo=
 		</data>
 		<key>ADSelectLinkView.nib/objects-11.0+.nib</key>
 		<data>
-		jy46l8k1GQh3l6QMUi0wqA0oMVI=
+		3bvMPZreEEgjB5fJa6rJzPon5tY=
 		</data>
 		<key>ADSelectLinkView.nib/runtime.nib</key>
 		<data>
-		zEwgqHnYWnaP7mP2HtUfmN597Ic=
+		s6RLOd9z+3/I6DNofqgznJ751aM=
 		</data>
 		<key>Headers/ADVCLinkSwitch.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OpKrEzJYRvVOne892fyMTxwanz8=
+		MiAXgVHGV5c68odX/5azSdVOUqQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,33 +51,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JTaSBAOw+JMdJeq6zV5VtslMrls=
+			zU8924tB5JHGfi40wxCqQvcTiQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zp+yvE6XeWrfWbHo8YOOXGt6y8fHWmnHZOkThLvjpZ0=
+			U2SfQwg6dF2bhUBT9G80SS8bCCx9zSu7EC9+Gug9HA8=
 			</data>
 		</dict>
 		<key>ADSelectLinkView.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jy46l8k1GQh3l6QMUi0wqA0oMVI=
+			3bvMPZreEEgjB5fJa6rJzPon5tY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5Ge3QLitneApB4Ke8nG+oj7ut6bMWnqjTWH59cx6jyw=
+			hXFFy1I77lxmPIGa31uvsdFXKKooOPNq8SpctrL59sE=
 			</data>
 		</dict>
 		<key>ADSelectLinkView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zEwgqHnYWnaP7mP2HtUfmN597Ic=
+			s6RLOd9z+3/I6DNofqgznJ751aM=
 			</data>
 			<key>hash2</key>
 			<data>
-			KmhAAjoxhWyot14AYFfzlmfy9mUs3fqZ0sPByR4mPA8=
+			yS0T8tghwnLECVnEplZxdEjjS83OpaJvQhmtzW2wT1g=
 			</data>
 		</dict>
 		<key>Headers/ADVCLinkSwitch.h</key>
@@ -149,7 +149,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -180,24 +180,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -233,13 +221,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
