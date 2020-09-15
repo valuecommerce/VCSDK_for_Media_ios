@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <VCSDK_for_Media_iOS/ADVCTextView.h>
 #import <VCSDK_for_Media_iOS/ADVCLinkSwitch.h>
-#import <VCSDK_for_Media_iOS/ADVCUIWebView.h>
 #import <VCSDK_for_Media_iOS/ADVCWKWebView.h>
 
 //! Project version number for VCSDVCSDK_for_Media_iOS.

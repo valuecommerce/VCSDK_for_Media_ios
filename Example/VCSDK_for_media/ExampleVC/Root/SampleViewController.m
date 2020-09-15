@@ -29,8 +29,6 @@ static NSString *kViewControllerClassNameKey = @"viewControllerClassName";
                         kViewControllerClassNameKey: @"LSLinkSwitchViewController"},
                       @{kTitleKey: NSLocalizedString(@"UITextView_LinkSwitch", @"UITextView_LinkSwitch"),
                         kViewControllerClassNameKey: @"LSUITextViewController"},
-                      @{kTitleKey: NSLocalizedString(@"UIWebView_LinkSwitch ", @"UIWebView_LinkSwitch "),
-                        kViewControllerClassNameKey: @"LSUIWebViewController"},
                       @{kTitleKey: NSLocalizedString(@"WKWebView_LinkSwitch", @"WKWebView_LinkSwitch"),
                         kViewControllerClassNameKey: @"LSWKWebViewController"},
                       ];

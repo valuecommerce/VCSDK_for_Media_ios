@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VCSDK_for_media'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'ValueCommerce SDK for media.'
 
 

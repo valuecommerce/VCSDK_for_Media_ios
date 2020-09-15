@@ -32,8 +32,6 @@
 		BBB7B57D20286C4E004F7931 /* LSUITextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7B57B20286C4E004F7931 /* LSUITextViewController.swift */; };
 		BBB7B58220286C5A004F7931 /* LSWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7B57E20286C5A004F7931 /* LSWKWebViewController.swift */; };
 		BBB7B58320286C5A004F7931 /* LSWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB7B57F20286C5A004F7931 /* LSWKWebViewController.xib */; };
-		BBB7B58420286C5A004F7931 /* LSUIWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBB7B58020286C5A004F7931 /* LSUIWebViewController.xib */; };
-		BBB7B58520286C5A004F7931 /* LSUIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB7B58120286C5A004F7931 /* LSUIWebViewController.swift */; };
 		BBC337C12028382F00A847F8 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC337BF2028382F00A847F8 /* SampleViewController.m */; };
 		BBC337C32028383700A847F8 /* SampleVCObjective-C.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC337C22028383700A847F8 /* SampleVCObjective-C.storyboard */; };
 		BBC337C82028385200A847F8 /* LSLinkSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC337C52028385100A847F8 /* LSLinkSwitchViewController.m */; };
@@ -42,8 +40,6 @@
 		BBC337D02028386B00A847F8 /* LSUITextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC337CE2028386B00A847F8 /* LSUITextViewController.m */; };
 		BBC337D72028387A00A847F8 /* LSWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC337D22028387A00A847F8 /* LSWKWebViewController.m */; };
 		BBC337D82028387A00A847F8 /* LSWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC337D32028387A00A847F8 /* LSWKWebViewController.xib */; };
-		BBC337D92028387A00A847F8 /* LSUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC337D42028387A00A847F8 /* LSUIWebViewController.m */; };
-		BBC337DA2028387A00A847F8 /* LSUIWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC337D52028387A00A847F8 /* LSUIWebViewController.xib */; };
 		E6D79C73B3DAC17F1FA89EB0 /* Pods_VCSDK_for_media_Example_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524969828D63E832B871B1F6 /* Pods_VCSDK_for_media_Example_Swift.framework */; };
 		E968A6C117B5F6928202B6B0 /* Pods_VCSDK_for_media_Example_Objective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B06B162EDAFEAF2C884A04 /* Pods_VCSDK_for_media_Example_Objective_C.framework */; };
 /* End PBXBuildFile section */
@@ -101,8 +97,6 @@
 		BBB7B57B20286C4E004F7931 /* LSUITextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSUITextViewController.swift; sourceTree = "<group>"; };
 		BBB7B57E20286C5A004F7931 /* LSWKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSWKWebViewController.swift; sourceTree = "<group>"; };
 		BBB7B57F20286C5A004F7931 /* LSWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSWKWebViewController.xib; sourceTree = "<group>"; };
-		BBB7B58020286C5A004F7931 /* LSUIWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSUIWebViewController.xib; sourceTree = "<group>"; };
-		BBB7B58120286C5A004F7931 /* LSUIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSUIWebViewController.swift; sourceTree = "<group>"; };
 		BBC337BF2028382F00A847F8 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
 		BBC337C02028382F00A847F8 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
 		BBC337C22028383700A847F8 /* SampleVCObjective-C.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "SampleVCObjective-C.storyboard"; sourceTree = "<group>"; };
@@ -112,11 +106,8 @@
 		BBC337CC2028386B00A847F8 /* LSUITextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSUITextViewController.xib; sourceTree = "<group>"; };
 		BBC337CD2028386B00A847F8 /* LSUITextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUITextViewController.h; sourceTree = "<group>"; };
 		BBC337CE2028386B00A847F8 /* LSUITextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSUITextViewController.m; sourceTree = "<group>"; };
-		BBC337D12028387A00A847F8 /* LSUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSUIWebViewController.h; sourceTree = "<group>"; };
 		BBC337D22028387A00A847F8 /* LSWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSWKWebViewController.m; sourceTree = "<group>"; };
 		BBC337D32028387A00A847F8 /* LSWKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSWKWebViewController.xib; sourceTree = "<group>"; };
-		BBC337D42028387A00A847F8 /* LSUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSUIWebViewController.m; sourceTree = "<group>"; };
-		BBC337D52028387A00A847F8 /* LSUIWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSUIWebViewController.xib; sourceTree = "<group>"; };
 		BBC337D62028387A00A847F8 /* LSWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSWKWebViewController.h; sourceTree = "<group>"; };
 		BBD3384BCA0E86AED693FCC1 /* Pods-VCSDK_for_media_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCSDK_for_media_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCSDK_for_media_Tests/Pods-VCSDK_for_media_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C26BF4C3F4320971D2F93AC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -367,8 +358,6 @@
 		BBB7B57720286C2A004F7931 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				BBB7B58120286C5A004F7931 /* LSUIWebViewController.swift */,
-				BBB7B58020286C5A004F7931 /* LSUIWebViewController.xib */,
 				BBB7B57E20286C5A004F7931 /* LSWKWebViewController.swift */,
 				BBB7B57F20286C5A004F7931 /* LSWKWebViewController.xib */,
 			);
@@ -435,9 +424,6 @@
 		BBC337CB2028386000A847F8 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				BBC337D12028387A00A847F8 /* LSUIWebViewController.h */,
-				BBC337D42028387A00A847F8 /* LSUIWebViewController.m */,
-				BBC337D52028387A00A847F8 /* LSUIWebViewController.xib */,
 				BBC337D62028387A00A847F8 /* LSWKWebViewController.h */,
 				BBC337D22028387A00A847F8 /* LSWKWebViewController.m */,
 				BBC337D32028387A00A847F8 /* LSWKWebViewController.xib */,
@@ -536,6 +522,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -559,7 +546,6 @@
 				BBC337C32028383700A847F8 /* SampleVCObjective-C.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				BBC337D82028387A00A847F8 /* LSWKWebViewController.xib in Resources */,
-				BBC337DA2028387A00A847F8 /* LSUIWebViewController.xib in Resources */,
 				BBC337C92028385200A847F8 /* LSLinkSwitchViewController.xib in Resources */,
 				BBC337CF2028386B00A847F8 /* LSUITextViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -581,7 +567,6 @@
 			files = (
 				BBB7B58320286C5A004F7931 /* LSWKWebViewController.xib in Resources */,
 				BBB7B568202867A2004F7931 /* LaunchScreen.storyboard in Resources */,
-				BBB7B58420286C5A004F7931 /* LSUIWebViewController.xib in Resources */,
 				BBB7B57C20286C4E004F7931 /* LSUITextViewController.xib in Resources */,
 				BBB7B57520286C19004F7931 /* LSLinkSwitchViewController.xib in Resources */,
 				BBB7B565202867A2004F7931 /* Assets.xcassets in Resources */,
@@ -652,7 +637,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-frameworks.sh",
 				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK_for_Media_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -661,7 +646,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VCSDK_for_media_Example_Objective-C/Pods-VCSDK_for_media_Example_Objective-C-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE056783BB3436C4F288A015 /* [CP] Embed Pods Frameworks */ = {
@@ -670,7 +655,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-frameworks.sh",
 				"${PODS_ROOT}/../../VCSDK_for_media/VCSDK_for_Media_iOS.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -679,7 +664,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VCSDK_for_media_Example_Swift/Pods-VCSDK_for_media_Example_Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -693,7 +678,6 @@
 				BBC337C82028385200A847F8 /* LSLinkSwitchViewController.m in Sources */,
 				BBC337D72028387A00A847F8 /* LSWKWebViewController.m in Sources */,
 				6003F59E195388D20070C39A /* VCSDKAppDelegate.m in Sources */,
-				BBC337D92028387A00A847F8 /* LSUIWebViewController.m in Sources */,
 				BBC337C12028382F00A847F8 /* SampleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -713,7 +697,6 @@
 			files = (
 				BBB7B57D20286C4E004F7931 /* LSUITextViewController.swift in Sources */,
 				BBB7B55E202867A2004F7931 /* AppDelegate.swift in Sources */,
-				BBB7B58520286C5A004F7931 /* LSUIWebViewController.swift in Sources */,
 				BBB7B58220286C5A004F7931 /* LSWKWebViewController.swift in Sources */,
 				BBB7B57420286C19004F7931 /* LSLinkSwitchViewController.swift in Sources */,
 				BBB7B56D202868D9004F7931 /* SampleViewController.swift in Sources */,

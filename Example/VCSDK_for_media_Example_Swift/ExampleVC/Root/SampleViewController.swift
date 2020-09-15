@@ -18,7 +18,6 @@ class SampleViewController: UITableViewController {
     let menuItems = [
         MenuItem(name: "LSLinkSwitch",               className: "LSLinkSwitchViewController"),
         MenuItem(name: "LinkSwitch_UItextView",      className: "LSUITextViewController"),
-        MenuItem(name: "LinkSwitch_UIWebView",       className: "LSUIWebViewController"),
         MenuItem(name: "LinkSwitch_WKWebView",       className: "LSWKWebViewController"),
     ]
     
