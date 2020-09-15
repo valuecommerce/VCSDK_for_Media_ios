@@ -7,7 +7,6 @@
 //
 #import <VCSDK/ADVCTextView.h>
 #import <VCSDK/ADVCWKWebView.h>
-#import <VCSDK/ADVCUIWebView.h>
 #import <VCSDK/ADVCLinkSwitch.h>
 #ifndef ADLink_Bridging_Header_h
 #define ADLink_Bridging_Header_h

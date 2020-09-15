@@ -1,5 +1,5 @@
 PODS:
-  - VCSDK_for_media (1.0.4)
+  - VCSDK_for_media (1.0.6)
 
 DEPENDENCIES:
   - VCSDK_for_media (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VCSDK_for_media: 31b1005e23131d4a2e73853e5bc4697978cbd8c8
+  VCSDK_for_media: e5127caaad1e1871bed3dd3fd96b12c57d475d6e
 
 PODFILE CHECKSUM: 58c71afc8d07cd26e8f24d724582995ebc54792f
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.9.3
